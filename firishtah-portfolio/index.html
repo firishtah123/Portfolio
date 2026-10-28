@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#05090c">
+  <meta name="description" content="Firishtah Ghyara — geospatial data scientist working across banking AI, climate risk, remote sensing and spatial modelling.">
+  <title>Firishtah Ghyara — Data, Place & Risk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Firishtah Ghyara home">FG<span class="wordmark-dot">.</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">MENU <span>＋</span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a><a href="projects.html">Projects <span class="nav-count">15</span></a><a href="locations.html">Locations</a><a href="about.html">About</a><a class="nav-contact" href="about.html#contact">Contact <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero-home" id="home">
+        <div class="hero-atmosphere" aria-hidden="true"></div>
+        <div class="earth-stage" aria-hidden="true">
+          <div class="earth-halo"></div>
+          <div class="earth-globe"></div>
+          <svg class="orbit-svg" viewBox="0 0 1000 760" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+            <defs><filter id="orbitGlow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+            <ellipse class="orbit-line orbit-line-back" cx="500" cy="380" rx="440" ry="215" transform="rotate(-24 500 380)" />
+            <ellipse class="orbit-line orbit-line-front" cx="500" cy="380" rx="440" ry="215" transform="rotate(-24 500 380)" />
+            <path id="orbitPath" d="M 500,165 A 440,215 0 1,1 500,595 A 440,215 0 1,1 500,165" transform="rotate(-24 500 380)" fill="none" />
+            <circle class="orbit-satellite" r="7" filter="url(#orbitGlow)"><animateMotion dur="19s" repeatCount="indefinite" rotate="auto"><mpath href="#orbitPath"/></animateMotion></circle>
+            <circle class="orbit-satellite satellite-secondary" r="4"><animateMotion dur="31s" begin="-11s" repeatCount="indefinite" rotate="auto"><mpath href="#orbitPath"/></animateMotion></circle>
+          </svg>
+          <div class="earth-coordinate coordinate-one"><span class="coord-pulse"></span> 19.0760° N / 72.8777° E</div>
+          <div class="earth-coordinate coordinate-two">ORBITAL VIEW <span>01 / 03</span></div>
+          <div class="earth-data-card data-card-climate"><span class="card-kicker"><i class="signal signal-orange"></i> CLIMATE RISK</span><strong>Spatial exposure</strong><span class="card-small">Hazard · vulnerability · place</span><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+          <div class="earth-data-card data-card-ai"><span class="card-kicker"><i class="signal"></i> MODEL EVALUATION</span><strong>90.04<span>%</span></strong><span class="card-small">Best reported benchmark*</span><svg viewBox="0 0 180 38" class="sparkline" preserveAspectRatio="none"><path d="M0,32 L18,27 L32,29 L47,20 L64,25 L82,9 L100,15 L116,4 L133,12 L148,2 L164,8 L180,0"/></svg></div>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow reveal">GEOSPATIAL DATA SCIENCE <b>·</b> AI <b>·</b> RISK ANALYTICS</p>
+          <h1 class="hero-title reveal">Firishtah<br><em>Ghyara</em><span class="hero-period">.</span></h1>
+          <p class="hero-role reveal">Data, place and the systems that connect them.</p>
+          <p class="hero-description reveal">I build data workflows and analytical models across financial-document intelligence, climate risk and geospatial research—from model evaluation at HDFC Bank to spatial analysis at the London School of Economics.</p>
+          <div class="hero-actions reveal"><a class="button button-primary" href="projects.html">Explore the work <span>↗</span></a><a class="text-arrow" href="about.html">Meet Firishtah <span>→</span></a></div>
+          <div class="hero-footnote reveal"><span class="live-dot"></span> CURRENTLY · DATA SCIENCE, HDFC BANK <span class="footnote-rule"></span><span class="mono">MUMBAI / INDIA</span></div>
+        </div>
+        <a class="scroll-prompt" href="#selected-work"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+        <div class="hero-side-note mono">ANALYTICS IN CONTEXT / 2026</div>
+      </section>
+
+      <section class="quick-proof section-pad" id="selected-work">
+        <div class="section-topline reveal"><span class="eyebrow">A PRACTICE ACROSS DISCIPLINES</span><span class="mono muted">01 — WHAT I WORK ON</span></div>
+        <div class="discipline-grid">
+          <a class="discipline-card reveal" href="projects.html#banking-ai"><span class="discipline-number">01</span><div class="discipline-icon icon-document"><i></i><i></i><i></i></div><h2>Banking AI<br>& model evaluation</h2><p>Financial-document extraction, validation, OCR/VLM benchmarks and robustness testing.</p><span class="card-link">Explore the work ↗</span></a>
+          <a class="discipline-card reveal" href="projects.html#climate-risk"><span class="discipline-number">02</span><div class="discipline-icon icon-contours"><i></i><i></i><i></i><i></i></div><h2>Climate risk<br>& spatial modelling</h2><p>Flood exposure, environmental hazards and socioeconomic vulnerability across places.</p><span class="card-link">Explore the work ↗</span></a>
+          <a class="discipline-card reveal" href="projects.html#remote-sensing"><span class="discipline-number">03</span><div class="discipline-icon icon-satellite"><i></i><i></i><i></i></div><h2>Remote sensing<br>& Earth data</h2><p>Satellite-derived indicators, Google Earth Engine workflows and environmental analysis.</p><span class="card-link">Explore the work ↗</span></a>
+        </div>
+      </section>
+
+      <section class="home-feature section-pad">
+        <div class="feature-heading reveal"><div><p class="eyebrow">01 / CURRENT CHAPTER</p><h2 class="display-title">Making financial<br>data <em>work harder.</em></h2></div><p class="feature-intro">At HDFC Bank, my work centres on building and evaluating workflows that transform financial documents into structured, validated data. I test not only model outputs, but also reliability, failure modes and performance on imperfect documents.</p></div>
+        <div class="feature-showcase reveal">
+          <div class="workflow-panel"><div class="workflow-top"><span class="mono">DOCUMENT INTELLIGENCE / CONCEPTUAL WORKFLOW</span><span class="live-dot"></span></div><div class="workflow-steps"><div class="workflow-step"><span>01</span><div><strong>Image quality</strong><small>Blur · lighting · contrast</small></div><i>↘</i></div><div class="workflow-step"><span>02</span><div><strong>Classification & extraction</strong><small>Document type · fields · transactions</small></div><i>↘</i></div><div class="workflow-step"><span>03</span><div><strong>Validation</strong><small>Schema · totals · reconciliation</small></div><i>↘</i></div><div class="workflow-step workflow-step-end"><span>04</span><div><strong>Evaluation & decision</strong><small>Confidence · robustness · review</small></div><i>✓</i></div></div><div class="workflow-bottom"><span class="mono">PUBLIC-SAFE OVERVIEW</span><span class="mono accent">NO CUSTOMER DATA SHOWN</span></div></div>
+          <div class="feature-side"><div class="metric-tile"><span class="mono">TRANSACTION WORKFLOWS</span><strong data-count="20000" data-suffix="+">20,000+</strong><p>Transactions processed through extraction and validation workflows.</p></div><div class="metric-tile"><span class="mono">MODEL BENCHMARKING</span><strong>7<span>+</span></strong><p>Open-source models evaluated across quality and reliability dimensions.</p></div><div class="metric-tile metric-tile-highlight"><span class="mono">DOCUMENT QUALITY</span><strong>270</strong><p>FIT / REVIEW / UNFIT cases in a document-quality benchmark.</p></div></div>
+        </div>
+        <p class="micro-note">*A previously reported 90.04% result is shown in the hero visual as a benchmark claim; verify the precise task, test split and evaluation metric before treating it as a headline result.</p>
+      </section>
+
+      <section class="home-projects section-pad">
+        <div class="section-topline reveal"><div><p class="eyebrow">02 / SELECTED PROJECTS</p><h2 class="display-title">Different questions.<br><em>Grounded in data.</em></h2></div><a class="text-arrow" href="projects.html">View all projects <span>↗</span></a></div>
+        <div class="featured-project-grid">
+          <a class="featured-project project-flood reveal" href="https://github.com/firishtah123/Geographic-Data-Science-Portfolio/blob/main/London%20Flood%20Risk%20%26%20Socio-Spatial%20Inequality%20.pdf" target="_blank" rel="noopener"><div class="project-visual-image"></div><div class="project-meta mono"><span>SPATIAL MODELLING</span><span>01 / 04</span></div><div class="project-card-copy"><h3>Flood risk &<br>socio-spatial inequality</h3><p>Hazard exposure and socioeconomic vulnerability across 4,835 London LSOAs.</p><span class="circle-arrow">↗</span></div></a>
+          <a class="featured-project project-no2 reveal" href="https://github.com/firishtah123/Geographic-Data-Science-Portfolio/blob/main/London%20NO%E2%82%82%20Levels%20During%20COVID-19%20%28GEE%2C%20ArcGIS%29.pdf" target="_blank" rel="noopener"><div class="project-visual-image"></div><div class="project-meta mono"><span>EARTH OBSERVATION</span><span>02 / 04</span></div><div class="project-card-copy"><h3>London NO₂<br>during COVID-19</h3><p>Satellite-derived air-quality patterns across Greater London, 2019–2020.</p><span class="circle-arrow">↗</span></div></a>
+          <a class="featured-project project-crop reveal" href="https://github.com/firishtah123/Geographic-Data-Science-Portfolio/blob/main/Crop%20Suitability%20Analysis.pdf" target="_blank" rel="noopener"><div class="project-visual-image"></div><div class="project-meta mono"><span>GIS / DECISION SUPPORT</span><span>03 / 04</span></div><div class="project-card-copy"><h3>Agricultural<br>land suitability</h3><p>Spatial screening for corn cultivation using terrain, soil, land use and access.</p><span class="circle-arrow">↗</span></div></a>
+          <a class="featured-project project-burglary reveal" href="https://github.com/firishtah123/Geographic-Data-Science-Portfolio/blob/main/Socioeconomic%20Determinants%20of%20Burglary%20in%20London.pdf" target="_blank" rel="noopener"><div class="project-visual-image"></div><div class="project-meta mono"><span>SPATIAL STATISTICS</span><span>04 / 04</span></div><div class="project-card-copy"><h3>Socioeconomic factors<br>& burglary in London</h3><p>Investigating geographic patterns and place-based associations.</p><span class="circle-arrow">↗</span></div></a>
+        </div>
+        <div class="projects-cta reveal"><span class="mono">MORE NOTEBOOKS · REPORTS · ANALYTICAL WORK</span><a class="button button-ghost" href="projects.html">Open the project library <span>↗</span></a></div>
+      </section>
+
+      <section class="location-teaser section-pad">
+        <div class="location-teaser-copy reveal"><p class="eyebrow">03 / PLACE MATTERS</p><h2 class="display-title">A career traced<br>through <em>locations.</em></h2><p class="body-copy">From ESG analytics in Singapore to climate-risk research in London and financial AI in Mumbai, explore the cities connected to my work.</p><a class="button button-primary" href="locations.html">Explore the location map <span>↗</span></a></div>
+        <a class="mini-map-card reveal" href="locations.html" aria-label="Explore map of Singapore, London and Mumbai"><div class="mini-map-lines"></div><div class="map-pin pin-singapore"><i></i><span>SINGAPORE</span></div><div class="map-pin pin-london"><i></i><span>LONDON</span></div><div class="map-pin pin-mumbai"><i></i><span>MUMBAI</span></div><div class="map-card-caption"><span class="mono">CAREER MAP / 3 CITIES</span><span>Open map ↗</span></div></a>
+      </section>
+
+      <section class="end-note section-pad"><div class="end-note-inner reveal"><span class="eyebrow">CURIOUS ABOUT THE PERSON BEHIND THE MODELS?</span><h2>There's more to the<br>story than the data.</h2><a class="text-arrow" href="about.html">About Firishtah <span>↗</span></a></div><div class="end-note-mark" aria-hidden="true">FG</div></section>
+    </main>
+    <footer class="site-footer"><a class="wordmark" href="index.html">FG<span class="wordmark-dot">.</span></a><span class="mono">GEOSPATIAL DATA SCIENCE / AI / RISK</span><div class="footer-links"><a href="https://www.linkedin.com/in/firishtah-ghyara-5a953b1b4/" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://github.com/firishtah123" target="_blank" rel="noopener">GitHub ↗</a><a href="mailto:firishtah21@gmail.com">Email ↗</a></div><span class="mono muted">© <span data-year></span> FIRISHTAH GHYARA</span></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
